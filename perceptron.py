@@ -1,8 +1,6 @@
 import numpy as np
 from random import random, shuffle
 
-from numpy.core.numeric import count_nonzero
-
 class Perceptron:
     def __init__(self, n, lr) -> None:
         # Init perceptron with weights, bias and learning rate
